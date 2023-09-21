@@ -1,13 +1,13 @@
 ##############################################################		
-##   AUTHOR: Shajibul Islam Nayem			    ##
-##  		 					    ##
-##   DATE: 21-09-23					    ##
-##							    ##
-##   Monitor application status on a windows machine and    ##
-##   send email notification if any new application is      ##
-##   installed.	     					    ##
-## 	                  				    ##
-##							    ##	
+##   AUTHOR: Shajibul Islam Nayem			                ##
+##  		 					                            ##
+##   DATE: 21-09-23					                        ##
+##							                                ##
+##   Monitor application status on a Windows machine and    ##
+##   Send email notification if any new application is      ##
+##   installed.	     					                    ##
+## 	                  				                        ##
+##							                                ##	
 ##############################################################
 #Define the email settings
 $smtpServer = "smtp.gmail.com"
@@ -24,7 +24,7 @@ $installedAppsBefore = Get-WmiObject -Class Win32_Product
 
 ###############################################################
 #Wait for some time to allow for the installation of new applications (adjust as needed)
-Start-Sleep -Seconds 40
+Start-Sleep -Seconds 120
 
 ###############################################################
 # Get the list of installed applications again
