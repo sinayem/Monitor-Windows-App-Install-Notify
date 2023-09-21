@@ -32,3 +32,16 @@ If an application is installed within 120 seconds, this script will send an emai
 <br>
 **Finally, this is the email I received:** <br>
 <img width="462" alt="image" src="https://github.com/sinayem/Monitor-Windows-App-Install-Notify/assets/68912545/7da0f11c-a867-4d40-9528-75a5d4cd7bf9">
+
+### References
+- This [website_1](https://linuxhint.com/powershell-list-installed-software-quickly/) helped me to understand how to get the list of installed software.<br>
+- I faced some problems when I compared the two objects 'installedAppsBefore' and 'installedAppsAfter.' I solved this by this [website_2](https://adamtheautomator.com/compare-objects-with-powershell) <br>
+- Another website that helped me to understand PSCustomObject [website_3](https://learn.microsoft.com/en-us/powershell/scripting/learn/deep-dives/everything-about-pscustomobject?view=powershell-7.3)
+
+
+
+
+
+
+
+
